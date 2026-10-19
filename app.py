@@ -384,7 +384,7 @@ with col_map:
         landcolor="#f3f4f6",
         showocean=False,
         bgcolor="rgba(0,0,0,0)",
-        lataxis_range=[-58, 85],
+        fitbounds="locations",
     )
     base_layout(fig_map, 400)
     st.plotly_chart(
